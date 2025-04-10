@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database file
+database.db
+
+# Node modules (for interview-scheduler if needed)
+node_modules/
+
+# Distribution folders
+dist/
+build/
+
+# Environment variables
+.env
+```// filepath: .gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database file
+database.db
+
+# Node modules (for interview-scheduler if needed)
+node_modules/
+
+# Distribution folders
+dist/
+build/
+
+# Environment variables
+.env

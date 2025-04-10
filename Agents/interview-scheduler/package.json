@@ -1,0 +1,27 @@
+{
+  "name": "interview-scheduler",
+  "version": "1.0.0",
+  "description": "A project to manage interview scheduling.",
+  "main": "src/agent.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/agent.js"
+  },
+  "dependencies": {
+    "typescript": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/interview-scheduler.git"
+  },
+  "keywords": [
+    "interview",
+    "scheduler",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
