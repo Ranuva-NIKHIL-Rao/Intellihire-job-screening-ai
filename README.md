@@ -36,7 +36,10 @@ Agents/
 data/
     [Candidate PDFs]
 ```
+## 🤝 Team
 
-## License
+This project was developed as part of the Gen AI Hackathon (Accenture x GeeksforGeeks) by:
 
-This project is licensed under the MIT License.
+- [Nikhil Rao Ranuva](https://github.com/Ranuva-NIKHIL-Rao) – Lead Developer, Streamlit UI, Matching Agent, Architecture
+- [UV Krishna Teja](https://github.com/UVKrishnaTeja) – JD/CV Parsing, Database Agent, Interview Scheduler
+
