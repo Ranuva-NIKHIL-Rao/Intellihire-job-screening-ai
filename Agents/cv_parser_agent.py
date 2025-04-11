@@ -5,12 +5,10 @@ def parse_pdf_cv(file):
     """
     Parse a PDF file-like object and extract the name and skills from its text.
     """
-    # Save uploaded file to a temporary file
     with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp_file:
         tmp_file.write(file.read())
         tmp_path = tmp_file.name
 
-    # Open and read the PDF
     with fitz.open(tmp_path) as doc:
         text = " ".join(page.get_text() for page in doc)
 
